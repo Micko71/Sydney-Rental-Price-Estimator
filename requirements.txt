@@ -1,1 +1,1 @@
-streamlitpandasnumpyseabornmatplotlib.pyplot
+streamlitpandasnumpyseabornmatplotlib
