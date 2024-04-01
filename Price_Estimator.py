@@ -29,7 +29,7 @@ max_bathrooms = 4
 suburb = st.sidebar.selectbox('Select Suburb',suburb_list)
 postcode = suburb_mapping_dict.get(suburb)
 property_type = st.sidebar.selectbox('Select Property Type',property_type_list)
-if property_type == 'Appartment/House':
+if property_type == 'Apartment/House':
     bedroom = st.sidebar.slider('Select number of Bedrooms',1,4,1)
     if bedroom == 1:
         max_bathrooms = 2
