@@ -21,7 +21,7 @@ suburb_list = ['SYDNEY', 'WOOLLOOMOOLOO', 'POTTS POINT', 'PYRMONT',
        'DARLINGHURST', 'ULTIMO', 'SURRY HILLS', 'ELIZABETH BAY',
        'BARANGAROO', 'HAYMARKET', 'RUSHCUTTERS BAY', 'MILLERS POINT',
        'WALSH BAY', 'THE ROCKS']
-property_type_list = ['Appartment/House', 'Studio']
+property_type_list = ['Apartment/House', 'Studio']
 
 max_bathrooms = 4
 
