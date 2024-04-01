@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('Methodology and Results', anchor=False)
+st.title('Methodology and Results', anchor=False)
 st.write('Data was scraped from a leading real estate site and used to build a multiple linear regression model for the prediction of rental property prices.')
 st.divider()
 #describe data collection and cleaning 
