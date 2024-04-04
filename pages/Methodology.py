@@ -14,6 +14,7 @@ st.write("""Price outliers as defined by greater than 1.5 times the IQR above th
 st.subheader('Model Training and Results',anchor=False)
 st.write("""The data was split 70:30 into training and test sets and a multiple linear regression model was fitted using ordinary least squares. 
          Predictor variables used were the number of bedrooms, bathrooms and parking spaces as well as the property type and postcode categorical variables which were one-hot-encoded for modelling. 
+         Selected property type and postcode categories were combined based on an analysis of variance test.
          The final model resulted in an adjusted R2 of 0.69 and an F-statistic of 362.6((5,1252), p<.000). 
          This suggests that the combination of predictor variables used in the model explain around 70% of the variation in the target variable (Price). 
          All predictor variable coefficients have p-value < 0.05 suggesting that they are all statistically significant predictors of price (table 1).""")
