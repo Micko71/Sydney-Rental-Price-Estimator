@@ -25,5 +25,5 @@ st.image('residual_plot.jpg','Figure1, plot of training set residuals')
 st.write('The model was applied to the test set and resulted in an R2 of 0.67 with a mean squared error of MSE= 64209.')
 #conclusion
 st.subheader('Conclusion',anchor=False)
-st.write("""The predictor variables used in the model are all statistically significant at a p-value of <=0.05 and together capture around 70% of the variance in rental property price. 
+st.write("""The predictor variables used in the model are all statistically significant at a p-value of <=0.05 and together capture around two thirds of the variance in rental property price. 
          The remaining price variance can be attributed to other features (for example proximity to public transport) which are not included in the model.""")
